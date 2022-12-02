@@ -1,0 +1,67 @@
+#box{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}/*dit is de box waar alles behalve de klok*/
+body{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.U9ljYgPcRab7KMcMBBJefQHaFj%26pid%3DApi&f=1&ipt=7935d53e4a24337cf03290b60593616cd4ee7ebc921f9596beecad56a7d911cf&ipo=images);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#clock{
+  color: #ddd6d6;
+  float: right;
+  font-size: 40px;
+  padding-right: 5px;
+}/*dit is de css van de klok*/
+ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 100px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+ul li a:hover{
+  background-color:#4dff4d ;
+  color: #b800e6;
+  border-color: #b800e6;
+} /*hier is de responsive van de menubalk*/
+h1{
+  color: white;
+  text-align: center;
+}
+.tekst{
+  width: 580px;
+  float: left;
+  margin-right: 10px;
+}/*hier maak ik de tekst float left om een foto in de rest van float right 300 px de krijgen*/
+.article{
+  background-color: rgb(204, 255, 255,0.5);
+  color: rgb(0, 51, 102);
+  border: 3px solid rgb(0, 51, 102);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}/*hier geef ik de uitzien van de tekst in de article*/
+#foto{
+  border: 3px solid white;
+  width: 300px;
+}
+.article a{
+  text-decoration: none;
+  color: white;
+}
